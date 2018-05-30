@@ -30,5 +30,29 @@ Print total amount due to screen
 ======================
 PSUEDOCODE
 
-Define variable for 
+Define variable for user's name (name)
+Define variable for user's purchase amount (purchase_amt)
+Define variable for user's tax code (tax_code)
+Define variable for sales tax percentage (percent)
+Define variable for total sales tax (total_sales_tax)
+Define variable for total purchase amount (total_amt)
+
+Prompt user for name, purchase_amt, tax_code
+
+Get sales tax percentage based on tax_code given
+
+IF(tax_code = 0)
+	percent = 0;
+ELSE IF (tax_code = 1)
+	percent = 0.03;
+ELSE IF (tax_code = 2)
+	percent = 0.05;
+ELSE IF (tax_code = 3)
+	percent = 0.07;
+
+total_sales_tax = purchase_amt * percent;
+total_amt = purchase_amt + total_sales_tax;
+
+Print name, purchase_amt, total_sales_tax, total_amt to screen.
+	
 

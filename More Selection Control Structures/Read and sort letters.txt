@@ -7,21 +7,55 @@ ALGORITHM
 
 INPUTS
 
-String of 3 characters from user.
+Letter 1
+Letter 2
+Letter 3
 
 PROCESSING STEPS
 
-Receive string.
-Split string into characters.
-
+Receive letter 1
+Receive letter 2
+Receive letter 3
+Sort letters 1-3 in order.
 
 OUTPUTS
 
-Display result to screen.
+Display sorted letters to screen.
 
 ======================
 PSUEDOCODE
 
-Define string.
+Define letter 1 s1
+Define letter 2 s2
+Define letter 3 s3
+Define string small
+Define string big
+Define string biggest
+
+Prompt user for ls1, s2, s3
+
+IF(s1 > s2)
+	small = s2;
+	big = s1;
+	
+	IF(s3 > s1)
+		big = s1;
+		biggest = s3
+	ELSE
+		big = s3;
+		biggest = s1;
+
+ELSE
+	small = s1;
+	big = s2;
+	
+	IF(s3 > s2)
+		big = s2;
+		biggest = s3;
+	ELSE
+		big = s3;
+		biggest = s2;
+		
+Print small, big, biggest to screen.
 
 

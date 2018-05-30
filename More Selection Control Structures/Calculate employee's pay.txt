@@ -1,0 +1,54 @@
+ALGORITHM
+
+1. Read in employee number, pay rate and number of hours worked during the week.
+2. Verify that the hours worked is 60 or less or display error.
+3. Verify that the pay rate is $25 or less or display error.
+4. Verify if hours worked is more than 35, if so, pay time and a half.
+4. Compute weekly pay.
+
+INPUTS
+
+Employee number
+Pay rate
+Number of hours worked
+
+PROCESSING STEPS
+
+Check if hours worked ≤ 60, else display error message
+Check if pay rate ≤ 25, else display error message
+If hours worked > 35, weekly pay = 1.5 x pay rate x hours worked,
+else weekly pay = pay rate x hours worked
+
+OUTPUTS
+Print employee number, pay rate, hours worked, and weekly pay to screen.
+
+
+======================
+PSUEDOCODE
+
+Define variable for employee number (employee_num)
+Define variable for hours worked (hours)
+Define variable for pay rate (salary)
+Define variable for weekly pay (weekly_pay)
+
+Prompt user for employee_num
+
+Prompt user for hours
+IF(hours ≥ 60)
+	Print error message
+	Terminate program
+	
+Prompt user for salary
+IF(salary ≥ 25)
+	Print error message
+	Terminate program
+	
+IF(hours > 35)
+	weekly_pay = 1.5 * salary * hours;
+ELSE
+	weekly_pay = salary * hours;
+	
+Print employee_num, hours, salary, weekly_pay to screen.
+
+	
+
