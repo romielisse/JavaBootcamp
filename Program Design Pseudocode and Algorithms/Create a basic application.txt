@@ -1,0 +1,37 @@
+ALGORITHM
+
+1. Get integer from user.
+2. Add 5 to the integer.
+3. Double the amount from step 2.
+4. Subtract 7 from the amount obtained in step 3.
+5. Display the result from step 4 on the screen.
+
+INPUTS
+
+Integer from user
+
+PROCESSING STEPS
+
+Receive integer.
+Add 5 to integer.
+Double the total above.
+Subtract 7 from the total above.
+
+OUTPUTS
+
+Display result to the screen.
+
+======================
+PSUEDOCODE
+
+Define variable for user input ("input") and assign it a value of 0.
+Define variable for result ("result") and assign it a value of 0.
+Prompt user for integer.
+Verify input is integer.
+Assign input to user "input" variable.
+Add 5 to "input" and assign resulting sum to "result" variable.
+Double "result" and assign that amount to "result".
+Subtract 7 from "result" and assign that amount to "result."
+Print "result" to the screen.
+
+

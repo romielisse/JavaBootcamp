@@ -1,0 +1,40 @@
+ALGORITHM
+
+1. Get three numbers from user.
+2. Add three numbers of above.
+3. Print total above to screen.
+
+INPUTS
+
+Integer 1 from user
+Integer 2 from user
+Integer 3 from user
+
+PROCESSING STEPS
+
+Receive integer 1.
+Receive integer 2.
+Receive integer 3.
+Sum all integers received together.
+
+OUTPUTS
+
+Print sum of all three integers to the screen.
+
+======================
+PSUEDOCODE
+
+Define variable for integer one.
+Define variable for integer two.
+Define variable for integer three.
+Define variable for "result".
+Prompt user for integer one.
+Verify that input is a number.
+Prompt user for integer two.
+Verify that input is a number.
+Prompt user for integer three.
+Verify that input is a number.
+Sum integer one, integer two, and integer three together.
+Assign that sum to the "result" variable.
+Print "result" to the screen.
+

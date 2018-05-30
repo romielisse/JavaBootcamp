@@ -1,0 +1,27 @@
+ALGORITHM
+
+1. Prompt user for three letters.
+2. Receive those 3 letters as input.
+3. Sort those 3 letters in ascending order.
+4. Display the result to the screen.
+
+INPUTS
+
+String of 3 characters from user.
+
+PROCESSING STEPS
+
+Receive string.
+Split string into characters.
+
+
+OUTPUTS
+
+Display result to screen.
+
+======================
+PSUEDOCODE
+
+Define string.
+
+

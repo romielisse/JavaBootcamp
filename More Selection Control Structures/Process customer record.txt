@@ -1,0 +1,34 @@
+ALGORITHM
+
+1. Prompt user for their name, a purchase amount and a tax code.
+2. Determine percentage of sales tax based on tax code.
+3. Compute the sales tax total and total amount due.
+4. Print the customer's name, purchase amount, sales tax and total amount due to the screen.
+
+INPUTS
+
+Name from user
+Purchase amount from user
+Sales tax code from user
+
+PROCESSING STEPS
+
+Receive user's name
+Receive user's purchase amount
+Receive user's tax code
+Match tax code to sales tax percentage
+Multiple purchase amount by sales tax percentage to obtain total sales tax
+Add amount above to purchase amount to obtain total amount due
+
+OUTPUTS
+
+Print name to screen
+Print purchase amount to screen
+Print sales tax total to screen
+Print total amount due to screen
+
+======================
+PSUEDOCODE
+
+Define variable for 
+

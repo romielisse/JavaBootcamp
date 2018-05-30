@@ -1,0 +1,78 @@
+ALGORITHM
+
+1. Get ten exam scores from the user.
+2. Calculate the average of those ten exam scores.
+3. Display the average to the screen.
+
+INPUTS
+
+Exam score 1
+Exam score 2
+Exam score 3
+Exam score 4
+Exam score 5
+Exam score 6
+Exam score 7
+Exam score 8
+Exam score 9
+Exam score 10
+
+PROCESSING STEPS
+
+Receive exam score 1.
+Receive exam score 2.
+Receive exam score 3.
+Receive exam score 4.
+Receive exam score 5.
+Receive exam score 6.
+Receive exam score 7.
+Receive exam score 8.
+Receive exam score 9.
+Receive exam score 10.
+Sum exam scores 1-10.
+Divide sum above by total number of exam scores. 
+
+OUTPUTS
+
+Display the average obtained.
+
+======================
+PSUEDOCODE
+
+Define variable for exam score 1.
+Define variable for exam score 2.
+Define variable for exam score 3.
+Define variable for exam score 4.
+Define variable for exam score 5.
+Define variable for exam score 6.
+Define variable for exam score 7.
+Define variable for exam score 8.
+Define variable for exam score 9.
+Define variable for exam score 10.
+Define variable for "result".
+Prompt user for exam score 1.
+Verify that input is a number.
+Prompt user for exam score 2.
+Verify that input is a number.
+Prompt user for exam score 3.
+Verify that input is a number.
+Prompt user for exam score 4.
+Verify that input is a number.
+Prompt user for exam score 5.
+Verify that input is a number.
+Prompt user for exam score 6.
+Verify that input is a number.
+Prompt user for exam score 7.
+Verify that input is a number.
+Prompt user for exam score 8.
+Verify that input is a number.
+Prompt user for exam score 9.
+Verify that input is a number.
+Prompt user for exam score 10.
+Verify that input is a number.
+Sum of exam score 1 + exam score 2 + exam score 3 + exam score 4 + exam score 5 + exam score 6 + exam score 7 + exam score 8 + exam score 9 + exam score 10.
+Assign that sum to the "result" variable.
+Divide "result" by 10.
+Assign average obtained above to "result" variable.
+Display "result" to the screen.
+

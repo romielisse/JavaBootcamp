@@ -1,0 +1,48 @@
+ALGORITHM
+
+1. Get dimensions for a roof in feet.
+2. Convert the roof dimensions to inches.
+3. Multiply the resulting dimensions in inches by the number of inches of rainfall.
+4. Divide that result by 231 to obtain a number in gallons, which will be the amount of water that runs off a roof during a rain storm.
+
+INPUTS
+
+Integer from user for roof width
+Integer from user for roof height
+Integer for number of inches of rainfall
+
+PROCESSING STEPS
+
+Receive roof width.
+Receive roof height.
+Receive number of inches of rainfall.
+Multiply roof width by 12 to get width in inches.
+Multiply roof height by 12 to get height in inches.
+Multiple roof dimensions in inches obtained above by number of in of rainfall.
+Divide total above by 231.
+
+OUTPUTS
+
+Display result to the screen.
+
+======================
+PSUEDOCODE
+
+Define variable for roof width.
+Define variable for roof height.
+Define variable for rainfall amount.
+Define variable for result.
+Prompt user for roof width.
+Verify input is a number.
+Prompt user for roof height.
+Verify input is a number.
+Prompt user for rainfall amount.
+Verify input is a number.
+Multiply roof width by 12 and assign to "roof width" variable.
+Multply roof height by 12 and assign to "roof height" variable.
+Multiply roof width x roof height x rainfall amount.
+Assign result above to "result" variable.
+Result = result above / 231
+Print "result" to the screen.
+
+
