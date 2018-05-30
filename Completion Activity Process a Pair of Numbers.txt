@@ -1,0 +1,84 @@
+Design an algorithm that will prompt the user for the numerical value of two cards. The program will receive the two numbers and display their sum on the screen. If the calculated sum is 21, an asterisk is to be displayed beside the sum.
+
+The program shall end when two zeros are entered.The program shall print a welcome message when it is first started and an goodbye message when it terminates.
+
+Bonus:
+Modify the algorithm to allow the user to enter the face cards as J,Q,K or A. If the user enters J, Q, or K then convert the entered value to 10. If the user enters A then count the value as 11 points.
+
+Bonus Bonus:
+Modify the algorithm to allow the user who receives the A to designate it either as 1 or 11.
+
+Objective
+Define the problem by constructing an algorithm using pseudocode
+Create an IPO diagram showing input, output, and processing steps
+What control structures (sequence, selection and repetition) are required?
+What variables are required?
+Show a check of your solution with test data for at least two valid test cases
+
+==================================
+
+INPUTS
+
+Card one value
+Card two value
+User designation of card value as 1 or 11 if A is entered
+
+PROCESSING STEPS
+
+Read card one value
+Check if card one value is J,Q,K, or A
+Set card one value to 10 if J,Q,K
+Prompt user to designate value as 1 or 11 if 'A' entered
+
+Read card two value
+Check if card two value is J,Q,K, or A
+Set card two value to 10 if J,Q,K
+Prompt user to designate value as 1 or 11 if 'A' entered
+
+Sum values of cards one and two
+
+Check if sum = 21
+
+OUTPUTS
+
+Display sum with * if it equals 21, otherwise display sum
+
+PSEUDOCODE
+
+Define variable for card one value (value1);
+Define variable for card two value (value2);
+Define variable for user designation of card value if it's "A" (user_value)
+Define variable for the sum of the two card values (sum)
+
+Prompt user for value1
+
+CASE OF value1
+	J: value1 = 10
+	Q: value1 = 10
+	K: value1 = 10
+	A:
+		Prompt user to designate value as 1 or 11
+		Read in user_value
+		value1 = user_value
+ENDCASE
+
+Prompt user for value2
+
+CASE OF value2
+	J: value2 = 10
+	Q: value2 = 10
+	K: value2 = 10
+	A:
+		Prompt user to designate value as 1 or 11
+		Read in user_value
+		value2 = user_value
+ENDCASE
+
+sum = value1 + value2;
+
+IF(sum = 21)
+	Print sum with an asterisk(*)
+ELSE
+	Print sum
+
+	
