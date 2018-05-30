@@ -19,11 +19,11 @@ PSUEDOCODE
 
 Define variable for measurement;
 
-DO loop-index = 1 to 15
+FOR loop-index = 1 to 15
 	
 	Read measurement;
 	loop-index++;
 
-ENDDO
+ENDFOR
 	
 
