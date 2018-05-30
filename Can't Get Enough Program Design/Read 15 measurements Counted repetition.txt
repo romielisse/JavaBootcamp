@@ -1,0 +1,29 @@
+ALGORITHM
+
+Read 15 measurements (Counted repetition)
+
+INPUTS
+
+15 measurements
+
+PROCESSING STEPS
+
+Read each measurement until a count of 15 is reached.
+
+OUTPUTS
+
+None
+
+======================
+PSUEDOCODE
+
+Define variable for measurement;
+
+DO loop-index = 1 to 15
+	
+	Read measurement;
+	loop-index++;
+
+ENDDO
+	
+

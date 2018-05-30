@@ -20,8 +20,8 @@ If hours worked > 35, weekly pay = 1.5 x pay rate x hours worked,
 else weekly pay = pay rate x hours worked
 
 OUTPUTS
-Print employee number, pay rate, hours worked, and weekly pay to screen.
 
+Print employee number, pay rate, hours worked, and weekly pay to screen.
 
 ======================
 PSUEDOCODE

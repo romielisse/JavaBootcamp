@@ -1,0 +1,34 @@
+ALGORITHM
+
+Every day, a researcher receives 15 measurements. He needs a program written that will accept each measurement and convert it to its metric equivalent. The result shall display on the monitor. After all 15 measurements are entered, the words "All measurements processed" shall be displayed on the screen.
+
+INPUTS
+
+15 measurements in inches
+
+PROCESSING STEPS
+
+For each measurement, convert it to its metric equivalent.
+
+OUTPUTS
+
+Print the metric equivalent on the screen.
+
+======================
+PSUEDOCODE
+
+Declare variable count = 0;
+Declare variable input;
+
+DOUNTIL (count < 15)
+
+    input = input * 2.54;
+	Print input to screen;
+	count++;
+
+ENDDO
+
+Print "All measurements processed" to screen
+
+	
+

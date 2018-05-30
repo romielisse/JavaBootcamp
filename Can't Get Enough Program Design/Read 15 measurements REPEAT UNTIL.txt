@@ -1,0 +1,28 @@
+ALGORITHM
+
+Read 15 measurements until end-of-file marker is reached.
+
+INPUTS
+
+15 measurements
+
+PROCESSING STEPS
+
+Read each measurement while checking for EOF.
+
+OUTPUTS
+
+None
+
+======================
+PSUEDOCODE
+
+Define variable measurement;
+
+REPEAT
+
+	Read measurement;
+
+UNTIL (EOF reached)
+	
+
