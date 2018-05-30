@@ -1,0 +1,39 @@
+Create an algorithm to:
+Find the sum of the elements of an array
+Find the mean (average) of the elements of an array.
+
+======================
+INPUTS
+
+Array of numbers
+
+PROCESSESING STEPS
+
+Determine array length
+Loop through array
+Sum up all numbers in array
+Calculate average = sum/array length
+
+OUTPUTS
+
+Display sum and average to screen
+
+======================
+PSEUDOCODE
+
+Define variable sum = 0;
+Define variable mean = 0;
+
+IF(array.length = 0)
+	sum = 0;
+	mean = 0;
+	
+ELSE
+	WHILE(count <= array.length)
+		sum+ = array(index);
+		count++;
+	ENDWHILE
+	
+	mean = sum/array.length;
+	
+Print sum and mean to screen.

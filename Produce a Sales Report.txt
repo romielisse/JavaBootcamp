@@ -39,15 +39,13 @@ Print "Sales Report" heading
 		CASE OF tax_code
 			0: 
 				sales_tax_percent = 0;
-				sales_tax_due = total_amt_due * 0;
 			1: 
 				sales_tax_percent = 3;
-				sales_tax_due = total_amt_due * 0.03;
 			2:
 				sales_tax_percent = 5;
-				sales_tax_due = total_amt_due * 0.05;
 		ENDCASE
 		
+		sales_tax_due = total_amt_due * (sales_tax_percent/100);
 		total_amt_due = sales_amount + sales_tax_due;
 		
         Print Customer Number, Name, Sales Amount, Sales Tax Due, Total Amount Due
