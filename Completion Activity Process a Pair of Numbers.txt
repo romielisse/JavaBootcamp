@@ -41,7 +41,8 @@ Check if sum = 21
 
 OUTPUTS
 
-Display sum with * if it equals 21, otherwise display sum
+Terminate program if sum is zero
+Display sum with * if it equals 21, otherwise just display sum
 
 PSEUDOCODE
 
@@ -78,6 +79,8 @@ sum = value1 + value2;
 
 IF(sum = 21)
 	Print sum with an asterisk(*)
+ELSEIF(sum = 0)
+	Terminate program
 ELSE
 	Print sum
 

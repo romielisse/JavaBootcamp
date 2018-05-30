@@ -1,0 +1,38 @@
+Design a solution algorithm that will read a file of student test results and produce a student test grades report. Each test record contains the student number, name and test score (out of 50). The program is to calculate for each student the test score as a percentage and to print the student’s number, name, test score (out of 50) and letter grade on the report.
+
+The letter grade is determined as follows:
+A = 90–100%
+B = 80–89%
+C = 70–79%
+D = 60–69%
+F = 0–59%
+
+===============================
+
+PSEUDOCODE
+
+Define variable test_score_percent
+Define variable letter_grade
+
+Print "Student Test Results" heading
+
+    DOWHILE morerecords exist
+		
+		Read test record
+		
+		test_score_percent = (test_score/50) * 100;
+		
+		IF (test_score_percent ≤ 100 && test_score_percent ≥ 90)
+			letter_grade = 'A';
+		ELSE IF (test_score_percent ≤ 89 && test_score_percent ≥ 80)
+			letter_grade = 'B';
+		ELSE IF (test_score_percent ≤ 79 && test_score_percent ≥ 70)
+			letter_grade = 'C';
+		ELSE IF (test_score_percent ≤ 69 && test_score_percent ≥ 60)
+			letter_grade = 'D';
+		ELSE IF  (test_score_percent ≤ 59 && test_score_percent ≥ 0)
+			letter_grade = 'F';
+		
+        Print out Student Number, Student Name, Test Score out of 50, Letter Grade
+        
+    ENDDO
