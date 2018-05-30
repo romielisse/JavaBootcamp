@@ -1,0 +1,48 @@
+Find the largest element of an array
+
+In this example. the elements of an array are searched to determine which element is the largest. The algorithm starts by putting the first element of the array into the variable called largest_element. and then looks at the other elements of the array to see if a larger value exists.
+
+The largest value is then printed.
+
+Find_largest_element
+
+Set largest_element to array(0)
+DO index = 1 to number_of_elements
+
+ENDDO
+Print largest_element
+END
+
+Change the solution above to find the smallest element of an array
+Combine the solutions above to find both the largest and smallest elements of an array
+
+
+=========================
+PSEUDOCODE
+
+//Find smallest_element
+
+Set smallest_element to array(0)
+DO index = 1 to number_of_elements
+	IF(array(index) < smallest_element)
+		smallest_element = array(index);
+		index++;
+ENDDO
+Print smallest_element
+END
+
+//Find largest_element and smallest_element
+
+Set smallest_element to array(0);
+Define largest_element = 0;
+
+DO index = 1 to number_of_elements
+	IF(array(index) < smallest_element)
+		smallest_element = array(index);
+	ELSE IF(array(index) > largest_element)
+		largest_element = array(index);
+		
+	index++;
+ENDDO
+Print smallest_element, largest_element
+END
